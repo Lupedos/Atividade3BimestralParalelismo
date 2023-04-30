@@ -1,4 +1,5 @@
 package Atividade3BimestralParalelismo;
+
 public class Elevador extends Thread {
 	private boolean cheio;
 	

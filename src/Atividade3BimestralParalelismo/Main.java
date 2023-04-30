@@ -1,10 +1,28 @@
 package Atividade3BimestralParalelismo;
+
+import java.util.concurrent.Semaphore;
+
 public class Main {
-//O programa deve primeiramente criar uma instância única da classe Prédio
-	// a qual cria um objeto do tipo Elevador e o inicializa
-	public static void main(String[]args){
-		
-	System.out.println("Ready");
+public static void main(String[] args)
+{
 	
-	}
+
+	Predio predio = new Predio();
+	
+	 Semaphore semaforo = predio.getSemaforo();
+	 
+     predio.chamarElevador(1);
+     
+
+     try {
+         semaforo.acquire(); 
+         
+     }
+     catch(Exception e)
+     {
+    	 System.out.println(e.getMessage());
+     }
+}
+	 
+
 }
