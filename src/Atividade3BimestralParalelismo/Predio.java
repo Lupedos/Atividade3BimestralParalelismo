@@ -1,4 +1,5 @@
 package Atividade3BimestralParalelismo;
+<<<<<<< HEAD
 
 import java.lang.Math;
 import java.util.ArrayList;
@@ -132,3 +133,11 @@ public class Predio {
 	
 
 }
+=======
+
+public class Predio {
+	int F; //andares 
+	int N;// passageiros
+	
+}
+>>>>>>> parent of 28382c3 (teste mas nao funfa)

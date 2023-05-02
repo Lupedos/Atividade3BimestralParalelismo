@@ -1,9 +1,34 @@
 package Atividade3BimestralParalelismo;
+<<<<<<< HEAD
 
 import java.util.*;
 import java.util.concurrent.Semaphore;
 import java.lang.Runnable;
 import java.util.concurrent.Semaphore;
+=======
+public class Elevador extends Thread {
+	private boolean cheio;
+	
+	void AbrirPorta()
+	{
+		if(cheio == false)
+		{
+			
+		}
+		
+	}
+	void FecharPorta()
+	{
+		
+		
+		cheio = true; 
+	}
+	
+	void VisitarAndar()
+	{
+		
+	}
+>>>>>>> parent of 28382c3 (teste mas nao funfa)
 
 public class Elevador extends Thread{
     public boolean is_running;
